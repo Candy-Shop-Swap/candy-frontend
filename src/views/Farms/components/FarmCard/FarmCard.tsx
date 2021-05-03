@@ -105,7 +105,8 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, candyPrice, account 
     ? `$${farm.liquidity.toNumber().toLocaleString(undefined, { maximumFractionDigits: 0 })}`
     : '-'
 
-  const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase().replace('CANDY', '')
+  // const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase().replace('CANDY', '')
+  const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase()
   const earnLabel = farm.dual ? farm.dual.earnLabel : 'CANDY'
 
   const farmAPY = farm.apy && farm.apy.toLocaleString('en-US', { maximumFractionDigits: 2 })
