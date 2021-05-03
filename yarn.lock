@@ -1199,10 +1199,10 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@candyswap-libs/uikit@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@candyswap-libs/uikit/-/uikit-0.21.0.tgz#de893737bd11455431c55f2d6644d3dc18cd6508"
-  integrity sha512-2NGSkx3FpE1fTADr2LdGuSzAmGBjaTxPSl5m0WFTZvQ4uJzFGzj2yUKoTg5FBtzTY52ygzS2kS1CC4Wnex7x/Q==
+"@candyswap-libs/uikit@^0.22.5":
+  version "0.22.5"
+  resolved "https://registry.yarnpkg.com/@candyswap-libs/uikit/-/uikit-0.22.5.tgz#9c2ff1e404ef91888a314869fcf0c423dc29de24"
+  integrity sha512-WbaQOK3dD2+xE84kB1Hph9b5ATH+NB5z1nPitCTKB2jKlXNVVSgRtDtxTN6g50zN5iWXSOGlqnMO8YEsywoLAQ==
   dependencies:
     "@types/lodash" "^4.14.168"
     "@types/styled-system" "^5.1.10"
